@@ -1,6 +1,6 @@
 {
-  "name": "sarap-app",
-  "short_name": "sarap-app",
+  "name": "sarap.app",
+  "short_name": "sarap.app",
   "theme_color": "#258039",
   "background_color": "#fafafa",
   "display": "standalone",
