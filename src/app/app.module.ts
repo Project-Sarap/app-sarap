@@ -8,13 +8,15 @@ import { NotFoundComponent } from './page/not-found/not-found.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BottombarComponent } from './component/global/bottombar/bottombar.component';
+import { PreviewComponent } from './page/preview/preview.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MaintenanceComponent,
     NotFoundComponent,
-    BottombarComponent
+    BottombarComponent,
+    PreviewComponent
   ],
   imports: [
     BrowserModule,
