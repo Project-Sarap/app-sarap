@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "sarap-app": {
@@ -127,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "sarap-app"
+    }
+  },
+  "defaultProject": "sarap-app",
+  "cli": {
+    "analytics": "d4c3075d-6afc-4a2f-adb8-213435a3f0ba"
+  }
 }
