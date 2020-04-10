@@ -7,12 +7,14 @@ import { MaintenanceComponent } from './page/maintenance/maintenance.component';
 import { NotFoundComponent } from './page/not-found/not-found.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { BottombarComponent } from './component/global/bottombar/bottombar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MaintenanceComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    BottombarComponent
   ],
   imports: [
     BrowserModule,
